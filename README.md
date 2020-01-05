@@ -1,2 +1,2 @@
 # recipe-app-api
-Code for python jdango rest api course
+Code for python django rest api course
