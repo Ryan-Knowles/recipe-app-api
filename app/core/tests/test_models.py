@@ -31,7 +31,7 @@ class ModelTests(TestCase):
 
         self.assertEqual(user.email, email.lower())
 
-    def test_new_user_with_invalid_email(self):
+    def test_new_user_with_invalid_email_fails(self):
         """
         Test creating a new user with an invalid email and ensure an error is
         raised

@@ -19,14 +19,14 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    ### TODO: DELETE ME
-    import pprint
-
-    # Get the list of user's
-    # environment variables
-    env_var = os.environ
-
-    # Print the list of user's
-    # environment variables
-    pprint.pprint(dict(env_var), width=1)
+    #
+    # ### TODO: DELETE ME
+    # import pprint
+    #
+    # # Get the list of user's
+    # # environment variables
+    # env_var = os.environ
+    #
+    # # Print the list of user's
+    # # environment variables
+    # pprint.pprint(dict(env_var), width=1)
