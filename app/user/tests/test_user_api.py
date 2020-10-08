@@ -15,7 +15,7 @@ def create_user(**params):
 
 
 class PublicUserApiTests(TestCase):
-    """Tests to our public user API that doesn't require authentication"""
+    """Tests our publicly available user API"""
 
     def setUp(self):
         self.client = APIClient()
@@ -133,7 +133,7 @@ class PublicUserApiTests(TestCase):
 
 
 class PrivateUserApiTests(TestCase):
-    """Tests to our private users API that requires authentication"""
+    """Tests our private users API that requires authentication"""
 
     def setUp(self) -> None:
         self.user = create_user(
