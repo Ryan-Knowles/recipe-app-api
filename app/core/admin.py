@@ -31,6 +31,7 @@ class UserAdmin(BaseUserAdmin):
         }),
     )
 
+
 # Add models to the admin interface
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Tag)

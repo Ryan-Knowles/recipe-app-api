@@ -17,6 +17,8 @@ services:
       - DB_NAME=app
       - DB_USER=postgres
       - DB_PASS=password
+      - DJANGO_SUPERUSER_PASSWORD=test123
+      - DJANGO_SUPERUSER_EMAIL=test@test.com
     depends_on:
       - db
   db:
